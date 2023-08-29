@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="" content="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+    <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <section id="'navbar" class="navbar">
+        <nav>
+            <a class="logo" href="/">
+                <h1>&lt;Archit Jain /&gt;</h1>
+            </a>
+            <div class="nav-links" id="navLinks" style="right: -200px;">
+                <i id="hideMenuBtn" class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a onclick="pressed()" href="#navbar">Home</a></li>
+                    <li><a onclick="pressed()" href="#about">About</a></li>
+                    <li><a onclick="pressed()" href="#skills">Skills</a></li>
+                    <li><a onclick="pressed()" href="#services">Services</a></li>
+                    <li><a onclick="pressed()" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-social">
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #E4405F;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: #1D9BF0;"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #0A66C2;"></i></a>
+            </div>
+            <div class="showMenuBtn"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
+        </nav>
+    </section>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="left-container">
+                <p>Hello <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="32" height="32">
+                            <g transform="scale(0.25)">
+                                <path
+                                    d="M39.11,79.56c-1.1,1.03-2.21-0.2-2.21-0.2S18.42,59.78,17.22,58.9c-1.69-1.23-5.31-3.16-8.93,0.57 c-1.51,1.55-3.97,5,0.6,10.56c0.99,1.2,29.78,31.54,31.46,33.18c0,0,13.3,12.94,21.35,17.81c2.23,1.35,4.74,2.78,7.67,3.78 c2.92,1,6.22,1.69,9.7,1.69c3.48,0.04,7.09-0.63,10.5-1.88c3.41-1.26,6.59-3.09,9.48-5.2c0.71-0.54,1.43-1.08,2.1-1.66l1.94-1.6 c1.35-1.13,2.61-2.32,3.82-3.53c2.43-2.42,4.62-5.01,6.55-7.66c1.92-2.66,3.55-5.41,4.85-8.15c1.3-2.74,2.21-5.49,2.76-8.09 c0.58-2.59,0.74-5.04,0.65-7.18c-0.02-2.14-0.45-3.97-0.8-5.43c-0.4-1.46-0.83-2.55-1.17-3.27c-0.33-0.72-0.51-1.1-0.51-1.1l0,0 c-0.46-1.29-0.9-2.52-1.29-3.63c-1.1-3.13-2.37-6.64-3.69-10.25c-0.56-1.53-0.82-2.22-0.82-2.22l0.01,0.03 c-4.85-13.17-10.06-26.74-10.06-26.74c-0.79-2.39-3.7-3.22-5.84-1.68c-6.18,4.44-8.07,10.92-5.89,17.83l5.59,15.32 c0.79,1.71-1.39,3.69-2.85,2.5c-4.59-3.74-14.3-14.05-14.3-14.05c-4.34-4.16-28.83-29.27-30.47-30.8 c-3.3-3.07-7.46-4.65-10.63-2.32c-3.24,2.38-4.14,6.06-1.01,10.08c0.85,1.09,25.6,27.24,25.6,27.24c1.44,1.51-0.26,3.65-1.85,2.18 c0,0-30.79-32.12-32.18-33.62c-3.15-3.42-8.21-4.17-11.21-1.35c-2.93,2.75-2.86,7.26,0.34,10.8c1.02,1.12,22.71,24.02,31.39,33.4 c0.58,0.63,1.03,1.47,0.17,2.26c-0.01,0.01-0.88,0.95-2-0.25c-2.36-2.52-25.93-27.08-27.24-28.41C18,35,13.96,33.55,10.71,36.53 c-2.96,2.71-3.44,7.44-0.04,10.78l28.55,30.18C39.22,77.49,40.15,78.59,39.11,79.56z"
+                                    style="fill:#FAC036;" />
+                                <path
+                                    d="M85.46,54.4l2.41,2.58c0,0-13.79,13.31-4.39,33.75c0,0,1.22,2.59-0.38,3.02c0,0-1.4,0.78-3-3.2 C80.1,90.54,70.61,71.13,85.46,54.4z"
+                                    style="fill:#E48C15;" />
+                            </g>
+                            <path d="M63.28,10.2 c0,0,5.81,0.88,11.19,6.64c5.38,5.77,7.87,13.18,7.87,13.18"
+                                style="fill:none;stroke:#444444;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;" />
+                            <path d="M77.44,3.5 c0,0,4.87,2.45,8.63,8.5c3.76,6.05,4.67,13.05,4.67,13.05"
+                                style="fill:none;stroke:#444444;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;" />
+                            <path d="M35.71,110.73 c0,0-5.86,0.39-12.35-4.09S12.84,95.46,12.84,95.46"
+                                style="fill:none;stroke:#444444;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;" />
+                            <path d="M31.53,120.56 c0,0-5.44,0.23-11.68-3.22s-10.44-9.12-10.44-9.12"
+                                style="fill:none;stroke:#444444;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;" />
+                        </svg></span>, I'm</p>
+                <h1>Archit Jain</h1>
+                <h2>(Front-End Developer)</h2>
+                <span class="hireBtn">Let's Connect on Github!</span>
+            </div>
+            <div class="right-container">
+                <img src="Images/Developer.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <div class="container">
+            <div class="left-container">
+                <img src="Images/Developer 2.svg" alt="">
+            </div>
+            <div class="right-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, ipsa dicta ipsum eveniet
+                    consequuntur incidunt, eius, voluptas laborum architecto voluptatum ex recusandae placeat! Harum
+                    reiciendis doloribus dicta delectus enim voluptas vitae magni. Consequatur unde vero enim impedit
+                    iure, maiores neque tempora. Libero maxime labore, minima numquam tempora soluta ea debitis
+                    obcaecati possimus facilis, molestias eius dolorem aspernatur error laboriosam qui officiis aperiam
+                    nemo eaque quod unde sed natus ipsum. Est error incidunt, fuga, illo nobis eius vel reprehenderit
+                    accusantium obcaecati sint officiis at eligendi ipsa, placeat provident dolore perferendis dolorum
+                    magni? Reprehenderit laudantium provident enim fugit quaerat facere fuga animi harum itaque vel
+                    labore, at odit temporibus repellendus voluptate nesciunt, sequi a maiores mollitia illo quos
+                    obcaecati. Dolore nesciunt iure assumenda totam iusto dicta sed animi qui quos laudantium!
+                    Consequuntur blanditiis accusamus incidunt perferendis? Voluptas recusandae esse nemo, eius vero, ea
+                    similique voluptatum vitae accusamus repellat quo nostrum reprehenderit.
+                    <br><span class="downloadBtn">Download Resume!</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="left-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis nulla
+                blanditiis consequatur. Laudantium ipsum id distinctio tenetur, a iusto nisi quisquam autem sit ullam
+                veniam? Veritatis totam consequuntur eveniet voluptas esse neque. Error, perferendis natus aspernatur
+                doloremque excepturi corrupti. Temporibus asperiores aspernatur vitae fuga quidem quod ullam fugit omnis
+                doloribus dolore ea ab quos corrupti eius incidunt tenetur quibusdam maxime nisi, delectus doloremque,
+                neque facilis ad ipsa? Debitis, quia earum vel odio doloribus minus ab itaque sapiente voluptas
+                laboriosam nisi aliquam tempora eos molestiae. Voluptatum aperiam eos voluptate, sed pariatur nulla
+                incidunt dolor eius harum qui? Odio aut mollitia totam saepe harum fugit cupiditate odit, adipisci eaque
+                impedit possimus atque? Reprehenderit harum est quasi vero molestiae sapiente illo amet dolores quidem
+                dolore. Animi asperiores repudiandae omnis sunt, necessitatibus cumque. Porro aspernatur libero
+                voluptate, commodi ipsam quam quod voluptatibus saepe minima itaque similique exercitationem
+                dignissimos, tempore dolores deserunt aliquid ipsum?</div>
+            <div class="right-container">
+                <!-- <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div> -->
+                <!-- <progress value="75" min="0" max="100">75%</progress> -->
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="100">HTML<br>100%</span>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="90">CSS<br>90%</span>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="80">JavaScript<br>80%</span>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="90">Python<br>90%</span>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="80">ReactJS<br>80%</span>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="50">Node.js<br>50%</span>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progress-value" data-value="50">Express.js<br>50%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h1>Services</h1>
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi delectus voluptates ex
+                        itaque reprehenderit.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-pen-fancy"></i>
+                    <h2>Graphic Designing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi delectus voluptates ex
+                        itaque reprehenderit.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-icons"></i>
+                    <h2>Icon Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi delectus voluptates ex
+                        itaque reprehenderit.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi delectus voluptates ex
+                        itaque reprehenderit.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi delectus voluptates ex
+                        itaque reprehenderit.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi delectus voluptates ex
+                        itaque reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Contact</h1>
+        <div class="container">
+            <div class="right-container">
+                <img src="Images/Developer 3.svg" alt="">
+            </div>
+            <div class="left-container">
+                <form method="POST" name="contact_form"><input type="hidden" name="form-name" value="contact_form">
+                    <input name="Name" type="text" placeholder="Enter Your Name" required="">
+                    <input name="Email" type="email" placeholder="Enter Email Address" required="">
+                    <input name="Subject" type="text" placeholder="Enter Your Subject" required="">
+                    <textarea name="Message" rows="8" placeholder="Message" required=""></textarea>
+                    <button type="submit" class="sendBtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Copyright Archit Jain</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
